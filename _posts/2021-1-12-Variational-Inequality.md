@@ -11,13 +11,7 @@ In this post, we are going to look deep into variational inequality (VI) theory.
 {:toc}
 
 
-## Formulation: What is VI?
-
-$$
-\begin{aligned}
-	\left< F(x^*), x - x^* \right> \geq 0
-\end{aligned}
-$$
+## Formulation: What is VI? $$x^2 + x + 1 0$$
 
 ### VI and Optimization
 ### VI and Game Theory
