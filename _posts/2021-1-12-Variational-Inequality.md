@@ -12,7 +12,7 @@ In this post, we are going to look deep into variational inequality (VI) theory.
 
 ## Formulation: What is VI?
 
-$$x^2 + x + 1 0$$
+$$x^2 + x + 1 = 0$$
 
 
 ### VI and Optimization
