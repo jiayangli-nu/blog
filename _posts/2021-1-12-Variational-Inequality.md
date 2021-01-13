@@ -1,5 +1,4 @@
 ---
-usemathjax: true
 layout: post
 title: Variational Inequality Theory
 ---
