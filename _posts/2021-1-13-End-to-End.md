@@ -1,9 +1,10 @@
 ---
 layout: post
 title: End-to-End Design and Intervention in Games
+date: 2020-01-20 20:00:00
 ---
 
-In this post, we will introduce our paper [*end-to-end design and learning in games*](https://arxiv.org/pdf/2010.13834.pdf). 
+In this post, we will introduce our paper [*end-to-end design and learning in games*](https://arxiv.org/pdf/2010.13834.pdf). This paper provides a unified framework for learning and intervention in games. 
 
 
 {: class="table-of-content"}
