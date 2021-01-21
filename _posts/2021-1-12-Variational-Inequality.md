@@ -92,7 +92,15 @@ These two propositions establish the equivalence between VI and convex optimizat
 
 ### VI and Nash Equilibrium
 
-Consider a game $$(\mathcal N, \mathcal{A}, u)$$ played by a set of agents $$\mathcal N$$, where each agent $$i \in \mathcal N$$ selects an *action* $$a_i \in \mathcal A_i$$ and each player's payoff is determined by a function $$u_i: \mathcal A = \prod_{i \in \mathcal N} \mathcal{A}_i\to \mathbb R$$.  
+Consider a game $$(\mathcal N, \mathcal{A}, u)$$ played by a set of agents $$\mathcal N$$, where each agent $$i \in \mathcal N$$ selects an *action* $$a_i \in \mathcal A_i$$ and each player's payoff is determined by a function
+
+$$u_i: \mathcal A = \prod_{i \in \mathcal N} \mathcal{A}_i\to \mathbb R$$.
+
+**Example (Continous Game)**
+
+**Example (Finite Game)**
+
+**Example (Population Game)**
 
 
 
