@@ -57,7 +57,7 @@ $$f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}].$$
 
 $$f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}].$$
 
-If $$x^*$$ is a local minimizer of $$\eqref{eq:2}$$, $$\mathcal{F}_{\bar{x}} \cap \mathcal{D}_{\bar{x}} = \emptyset$$.
+If $$x^*$$ is a local minimizer of $$\eqref{eq:2}$$, then $$\mathcal{F}_{\bar{x}} \cap \mathcal{D}_{\bar{x}} = \emptyset$$. Based on this 
 
 **Proposition**: If $$\mathcal{X}$$ is convex, any local minimizer $$x^*$$ of the optimization problem $$(f, \mathcal{X})$$ is a solution to a VI problem $$(\nabla f, \mathcal{X})$$.
 
