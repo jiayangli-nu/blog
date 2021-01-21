@@ -72,9 +72,9 @@ $$\mathcal{D}_{x^*} = \left\{d: \left<\nabla f(x^*), d \right> < 0 \right\}.$$
 
 If $$x^*$$ is a local minimizer of the optimization problem $$(f, \mathcal{X})$$, then $$\mathcal{F}_{x^*} \cap \mathcal{D}_{x^*} = \emptyset$$, or equivalently
 
-$$\left<\nabla f(x^*)^{T}, x - x^*\right>, \forall x \in \mathcal{X},$$
+$$\left<\nabla f(x^*), x - x^*\right> \geq 0, \forall x \in \mathcal{X},$$
 
-i.e. every feasible direction is not a descent direction. 
+i.e. every feasible direction is not a descent direction. $$\qed$$
 
 **Proposition**: If $$f$$ is convex, any solution $$x^*$$ to the VI problem $$(\nabla f, \mathcal{X})$$ is a global minimizer of the optimization problem $$(f, \mathcal{X})$$.
 
