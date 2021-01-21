@@ -74,7 +74,7 @@ If $$x^*$$ is a local minimizer, then $$\mathcal{F}_{x^*} \cap \mathcal{D}_{x^*}
 
 $$\left<\nabla f(x^*), x - x^*\right> \geq 0, \forall x \in \mathcal{X},$$
 
-i.e. every feasible direction is not a descent direction. $$\qed$$
+i.e. every feasible direction is not a descent direction. $$\blacksquare$$
 
 **Proposition**: If $$f$$ is convex, any solution $$x^*$$ to the VI problem $$(\nabla f, \mathcal{X})$$ is a global minimizer of the optimization problem $$(f, \mathcal{X})$$.
 
