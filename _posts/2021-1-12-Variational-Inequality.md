@@ -47,13 +47,13 @@ $$
 
 First, let's review the concepts of **feasible direction** and **descent direction**. At a feasible point $$\bar{x} \in \mathcal{X}$$,
 
-* The cone of feasible directions $$\mathcal{F}_{\bar{x}}$$ is defined as
+* The cone of feasible directions $$\mathcal{F}_{\bar{x}}$$ is the set of $d \in \mathbb R^n$, $$d \neq 0$$, s.t. there exists $$\bar{\tau} > 0$$,
 
-$$\left{d \neq 0: f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}] \right}$$
+$$f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}]$$
 
-* The cone of descent direction $$\mathcal{D}_{\bar{x}}$$ is defined as
+* The cone of descent direction $$\mathcal{D}_{\bar{x}}$$ is is the set of $d \in \mathbb R^n$, $$d \neq 0$$, s.t. there exists $$\bar{\tau} > 0$$,
 
-$$\left{d \neq 0: f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}]\right}$$
+$$f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}]$$
 
 If $x^*$ is a local minimizer of $(2)$,
 
