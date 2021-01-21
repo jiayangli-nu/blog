@@ -76,13 +76,13 @@ $$\left<\nabla f(x^*), x - x^*\right> \geq 0, \forall x \in \mathcal{X},$$
 
 i.e. every feasible direction is not a descent direction. $$\blacksquare$$
 
-The converse is also true when the function $f$ is convex. 
+The converse is also true when $$f$$ is convex on $$\mathcal{X}$$. 
 
 **Proposition**: If $$f$$ is convex, any solution $$x^*$$ to the VI problem $$(\nabla f, \mathcal{X})$$ is a global minimizer of the optimization problem $$(f, \mathcal{X})$$.
 
 ***Proof.*** Since $$f$$ is convex, 
 
-$$f(x) \geq f(x^*) + \left<\nabla f(x^*), x - x^*\right> \geq f(x^*), \quad \forall x \in \mathcal{X}.$$
+$$f(x) \geq f(x^*) + \left<\nabla f(x^*), x - x^*\right> \geq f(x^*), \quad \forall x \in \mathcal{X}. \blacksquare $$
 
 
 
