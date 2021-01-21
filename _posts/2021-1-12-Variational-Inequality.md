@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Variational Inequality -- Classical Results and New Insights
+title: Variational Inequality
 ---
 
 **Variational inequality** (VI) was first proposed as a tool to study partial differential equations in the 1960s. Subsequently, researchers began to realize that it could also be a powerful tool for various problems in operations research, economics and engineering.
