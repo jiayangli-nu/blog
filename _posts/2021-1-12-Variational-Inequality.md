@@ -32,11 +32,12 @@ Before introducing any properties of VI, I think it would be better to first hav
 
 ### VI and Optimization
 
-Consider a optimization problem:
+The first example is that optimization problems can be naturally fomulated as VI problems. Let's consider the following problem:
+
 $$
 \begin{aligned}
-	\min_{x \in \mathcal{X}} &f(x) \\
-	\text{s.t.}~&x \in \mathcal{X}
+	\min_{x \in \mathcal{X}}~~&f(x) \\
+	\text{s.t.}~~&x \in \mathcal{X}
 \end{aligned}
 $$
 
