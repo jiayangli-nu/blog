@@ -36,7 +36,7 @@ Before further introducing any properties of VI, I think it would be better to f
 
 ### VI and Optimization
 
-Given a set $$\mathcal{X} \subseteq \mathbb R^n$$ and a differentiable function $$f: \mathcal{X} \to \mathbb R$$. Consider the following optimization problem $$(f, \mathcal{X})$$:
+Given a set $$\mathcal{X} \subseteq \mathbb R^n$$ and a *continuously differentiable* function $$f: \mathcal{X} \to \mathbb R$$. Consider the following optimization problem $$(f, \mathcal{X})$$:
 
 $$
 \begin{aligned}
@@ -57,7 +57,7 @@ $$f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}].$$
 
 $$f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}].$$
 
-Using these concepts, we can directly obtain the following result.
+Using these concepts, we can directly formulate an optimziation problem to a VI problem when $$\mathcal{X}$$ is convex.
 
 **Proposition**: If $$\mathcal{X}$$ is convex, any local minimizer $$x^*$$ of the optimization problem $$(f, \mathcal{X})$$ is a solution to a VI problem $$(\nabla f, \mathcal{X})$$.
 
@@ -65,7 +65,7 @@ Using these concepts, we can directly obtain the following result.
 
 $$\mathcal{F}_{x^*} = \left\{d: d = x - x^*, x \in \mathcal{X} \right\}.$$
 
-Since $$f$$ is differentiable, the cone of descent directions at $$x^*$$ is
+Since $$f$$ is continuously differentiable, the cone of descent directions at $$x^*$$ is (\color{red}{The continuity of $$\nabla f$$ is important!})
 
 $$\mathcal{D}_{x^*} = \left\{d: \left<\nabla f(x^*), d \right> < 0 \right\}.$$
 
@@ -76,7 +76,11 @@ $$\left<\nabla f(x^*), x - x^*\right> \geq 0, \forall x \in \mathcal{X},$$
 
 i.e. every feasible direction is not a descent direction. $$\blacksquare$$
 
+The converse is also true when the function $f$ is convex. 
+
 **Proposition**: If $$f$$ is convex, any solution $$x^*$$ to the VI problem $$(\nabla f, \mathcal{X})$$ is a global minimizer of the optimization problem $$(f, \mathcal{X})$$.
+
+***Proof.*** Since $$f$$ is convex, 
 
 
 
