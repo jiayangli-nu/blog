@@ -87,7 +87,7 @@ $$f(x) \geq f(x^*) + \left<\nabla f(x^*), x - x^*\right> \geq f(x^*), \quad \for
 
 These two propositions establish the equivalence between VI and convex optimization. 
 
-**Comment.** A lot of textbooks use optimization as the first example of VI. It is extremly natural indeed. However, one may ask: why bother? We already know almost everything about convex optimization. So, let's move to the next part to see why VI is useful.
+**Comment.** Formulating an optimization problem as a VI problem is extremly straightforward. However, one may ask: why bother? We already know almost everything about convex optimization. So, let's move to the next part to see why VI is useful.
 
 
 
