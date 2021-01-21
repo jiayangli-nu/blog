@@ -2,7 +2,6 @@
 layout: post
 title: Variational Inequality
 ---
-<span style="font size:27">Classcial Results and New Insights</span>
 
 ***Classcial Results and New Insights***
 
@@ -93,8 +92,7 @@ These two propositions establish the equivalence between VI and convex optimizat
 
 ### VI and Nash Equilibrium
 
-Consider a game played by a set of agents $$\mathcal N$$, where each agent $$i \in \mathcal N$$ selects an \textit{action} $$a_i \in \mathcal A_i$$ and each player's payoff is determined by a function $$u_i: \mathcal A \to \mathbb R$$, where $$\mathcal{A} = \prod_{i \in \mathcal N} \mathcal{A}_i$$.  We then discuss how to formulate the Nash equilibria of games as VI problems defined below.
-
+Consider a game $$(\mathcal N, \mathcal{A}, u)$$ played by a set of agents $$\mathcal N$$, where each agent $$i \in \mathcal N$$ selects an *action* $$a_i \in \mathcal A_i$$ and each player's payoff is determined by a function $$u_i: \mathcal A = \prod_{i \in \mathcal N} \mathcal{A}_i\to \mathbb R$$.  
 
 
 
