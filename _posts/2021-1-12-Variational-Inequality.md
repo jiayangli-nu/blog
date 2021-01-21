@@ -47,17 +47,19 @@ $$
 
 First, let's review the concepts of **feasible direction** and **descent direction**. At a feasible point $$\bar{x} \in \mathcal{X}$$,
 
-* The cone of feasible directions $$\mathcal{F}_{\bar{x}}$$ is the set of $d \in \mathbb R^n$, $$d \neq 0$$, s.t. there exists $$\bar{\tau} > 0$$,
+* The cone of feasible directions $$\mathcal{F}_{\bar{x}}$$ is the set of all $$d \in \mathbb R^n$$, $$d \neq 0$$, where there exists $$\bar{\tau} > 0$$, s.t.
 
-$$f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}]$$
+$$f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}].$$
 
-* The cone of descent direction $$\mathcal{D}_{\bar{x}}$$ is is the set of $d \in \mathbb R^n$, $$d \neq 0$$, s.t. there exists $$\bar{\tau} > 0$$,
+* The cone of descent direction $$\mathcal{D}_{\bar{x}}$$ is the set of all $$d \in \mathbb R^n$$, $$d \neq 0$$, where there exists $$\bar{\tau} > 0$$,
 
-$$f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}]$$
+$$f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}].$$
 
-If $x^*$ is a local minimizer of $(2)$,
+If $x^*$ is a local minimizer of $(2)$, $$\mathcal{F}_{\bar{x}} \cap \mathcal{D}_{\bar{x}} = \emptyset$$.
 
-**Proposition**: If $$\mathcal{X}$$ is convex, any local minimizer $$x^*$$ of an optimization problem $$(f, \mathcal{X})$$ is a solution to a VI problem $$(\nabla f, \mathcal{X})$$.
+**Proposition**: If $$\mathcal{X}$$ is convex, any local minimizer $$x^*$$ of the optimization problem $$(f, \mathcal{X})$$ is a solution to a VI problem $$(\nabla f, \mathcal{X})$$.
+
+**Proposition**: If $$f$$ is convex, any solution $$x^*$$ to the VI problem $$(\nabla f, \mathcal{X})$$ is a global minimizer of the optimization problem $$(f, \mathcal{X})$$.
 
 
 
