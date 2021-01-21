@@ -47,17 +47,17 @@ $$
 
 First, let's review the concepts of **feasible direction** and **descent direction**. At a feasible point $$\bar{x} \in \mathcal{X}$$,
 
-* The cone of feasible directions is defined as
+* The cone of feasible directions $$\mathcal{F}_{\bar{x}}$$ is defined as
 
-$$\mathcal{F}_{\bar{x}} = \left{d \neq 0: f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}] \right}$$
+$$\left{d \neq 0: f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}] \right}$$
 
-* The cone of descent direction is defined as
+* The cone of descent direction $$\mathcal{D}_{\bar{x}}$$ is defined as
 
-$$\mathcal{D}_{\bar{x}} = \left{d \neq 0: f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}]\right}$$
+$$\left{d \neq 0: f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}]\right}$$
 
 If $x^*$ is a local minimizer of $(2)$,
 
-**Proposition**: If $$\mathcal{X}$$ is
+**Proposition**: If $$\mathcal{X}$$ is convex, any local minimizer $$x^*$$ of an optimization problem $$(f, \mathcal{X})$$ is a solution to a VI problem $$(\nabla f, \mathcal{X})$$.
 
 
 
