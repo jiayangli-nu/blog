@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Variational Inequality
+subsitle: Classcial Results and New Insights
 ---
-# Classical Results and New Insights
+
 
 **Variational inequality** (VI) was first proposed as a tool to study partial differential equations in the 1960s. Subsequently, researchers began to realize that it could also be a powerful tool for various problems in operations research, economics and engineering.
 
@@ -47,9 +48,11 @@ First, let's review the concepts of **feasible direction** and **descent directi
 
 * A vector $$d$$ is a feasible direction, if there exists a scalar $$\bar{\tau}$$ such that
 
-$$f(\bar{x} + \tau d) < f(\bar{x})$$
+$$f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}]$$
 
-* If
+* A vector $$d$$ is a descent direction, if there exists a scalar $$\bar{\tau}$$ such that
+
+$$f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}]$$
 
 **Proposition**: If $$\mathcal{X}$$ is
 
