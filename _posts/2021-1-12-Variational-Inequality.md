@@ -7,12 +7,11 @@ title: Variational Inequality: Classical Results and New Insights
 
 Actually, when I started to learn about it, I thought this topic was a little bit outdated. However, after looking deep into VI, I realized it still could be a powerful tool for my research. Meanwhile, recent advances in machine learning could also help us understand more about VI. Therefore, I decided to write this blog to provide a documentation and unification of some fundamental concepts about VI. Specifically, we will mainly focus on the following questions.
 
-1. What is VI?
-2. How to solive it?
-3. How to differentiate through it?
+1. **Formulation**: What is VI?
+2. **Algorithm**: How to solive it?
+3. **Differentiability**: How to differentiate through it?
 
 This outline is in line with some classic textbooks, while I also want to add some new materials besides those classical results in the textbooks, especially how VI is related to today's research topic.
-
 
 
 {: class="table-of-content"}
