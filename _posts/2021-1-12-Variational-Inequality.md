@@ -2,7 +2,7 @@
 layout: post
 title: Variational Inequality
 ---
-<span style="font size:27 px">Classcial Results and New Insights</span>
+<span style="font size:27">Classcial Results and New Insights</span>
 
 ***Classcial Results and New Insights***
 
@@ -64,11 +64,11 @@ Using these concepts, we can directly formulate an optimziation problem to a VI 
 
 ***Proof.*** Since $$\mathcal{X}$$ is convex, the cone of feasible directions at $$x^*$$ is 
 
-$$\mathcal{F}_{x^*} = \left\{d: d = x - x^*, x \in \mathcal{X} \right\}.$$
+$$\mathcal{F}_{x^*} = \left\{d = x - x^*, x \in \mathcal{X} \right\}.$$
 
 Since $$f$$ is continuously differentiable, the cone of descent directions at $$x^*$$ is  (<span style="color:red">Here the continuity of $$\nabla f$$is important!</span>)
 
-$$\mathcal{D}_{x^*} = \left\{d: \left<\nabla f(x^*), d \right> < 0 \right\}.$$
+$$\mathcal{D}_{x^*} = \left\{d = x - x^*, \left<\nabla f(x^*), x - x^* \right> < 0 \right\}.$$
 
 
 If $$x^*$$ is a local minimizer, then $$\mathcal{F}_{x^*} \cap \mathcal{D}_{x^*} = \emptyset$$, or equivalently
