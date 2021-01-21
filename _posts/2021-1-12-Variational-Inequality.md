@@ -65,7 +65,7 @@ Using these concepts, we can directly formulate an optimziation problem to a VI 
 
 $$\mathcal{F}_{x^*} = \left\{d: d = x - x^*, x \in \mathcal{X} \right\}.$$
 
-Since $$f$$ is continuously differentiable, the cone of descent directions at $$x^*$$ is  (<span style="color:blue">The continuity of $$\nabla f$$ is important!</span>.)
+Since $$f$$ is continuously differentiable, the cone of descent directions at $$x^*$$ is  (<span style="color:blue">The continuity of the gradient is important!</span>.)
 
 $$\mathcal{D}_{x^*} = \left\{d: \left<\nabla f(x^*), d \right> < 0 \right\}.$$
 
