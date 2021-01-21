@@ -12,7 +12,7 @@ Actually, when I started to learn about it, I thought this topic was a little bi
 
 1. **Formulation**: What is VI?
 2. **Algorithm**: How to solive it?
-3. **Differentiation**: How to differentiate through it?
+3. **Differentiability**: How to differentiate through it?
 
 This outline is in line with some classic textbooks, while I also want to add some new materials besides those classical results in the textbooks, especially how VI is related to today's research topic.
 
@@ -96,7 +96,16 @@ Consider a game $$(\mathcal N, \mathcal{A}, u)$$ played by a set of agents $$\ma
 
 $$u_i: \mathcal A = \prod_{i \in \mathcal N} \mathcal{A}_i\to \mathbb R$$.
 
-**Example (Continous Game)**
+The outcome of a game can be predicted by its **Nash equilibrium**. Can VI become a powerful tool to analyze Nash equilibrium? Let's see some examples.
+
+**Example (Continuous Game)** When the action set $$\mathcal{A}_i$$ is continuous for all $i$, we call it a continuous game. If agents play pure strategies to minimize their payoffs, $a^* \in \mathcal A$ is a Nash equilibrium if
+
+$$
+    u_i(a_i^*, a_{-i}^*) \leq u_i(a_i, a_{-i}^*), \quad \forall a_i \in \mathcal{A}_i, i \in \mathcal{N}.
+$$
+
+We also assume that $u_i$ is continuously differentiable in $a_i$ and write $v_i(a) = \nabla_{a_i} u_i(a)$.
+Specifically, if $\mathcal{A}_i$ is closed and convex for all $i \in \mathcal{N}$, then a Nash equilibrium $a^*$ is the solution to $\textsc{VI}(v, \mathcal{A})$. The converse also holds if for all $i \in \mathcal{N}$, $u_i$ is convex in $a_i$ for all $a_{-i} \in \prod_{j \neq i} \mathcal{A}_j$.
 
 **Example (Finite Game)**
 
@@ -111,4 +120,4 @@ $$u_i: \mathcal A = \prod_{i \in \mathcal N} \mathcal{A}_i\to \mathbb R$$.
 
 ## 2. Algorithm
 
-## 3. Differentiation
+## 3. Differentiability
