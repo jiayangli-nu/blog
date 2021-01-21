@@ -29,6 +29,7 @@ Given a set $$\mathcal{X} \subseteq \mathbb R^n$$ and a function $$F: \mathcal{X
 $$
     \left< F(x^*),  x - x^*  \right> \geq 0, \quad \forall~x \in \mathcal{X}.
     \tag{1}
+    \label{eq:1}
 $$
 
 Before further introducing any properties of VI, I think it would be better to first have some examples. 
@@ -43,6 +44,7 @@ $$
 	\text{s.t.}~~&x \in \mathcal{X}
 \end{aligned}
 \tag{2}
+\label{eq:2}
 $$
 
 First, let's review the concepts of **feasible direction** and **descent direction**. At a feasible point $$\bar{x} \in \mathcal{X}$$,
@@ -55,7 +57,7 @@ $$f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}].$$
 
 $$f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}].$$
 
-If $$x^*$$ is a local minimizer of $$\ref{2}$$, $$\mathcal{F}_{\bar{x}} \cap \mathcal{D}_{\bar{x}} = \emptyset$$.
+If $$x^*$$ is a local minimizer of $$\eqref{eq:2}$$, $$\mathcal{F}_{\bar{x}} \cap \mathcal{D}_{\bar{x}} = \emptyset$$.
 
 **Proposition**: If $$\mathcal{X}$$ is convex, any local minimizer $$x^*$$ of the optimization problem $$(f, \mathcal{X})$$ is a solution to a VI problem $$(\nabla f, \mathcal{X})$$.
 
