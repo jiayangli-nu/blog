@@ -51,11 +51,11 @@ First, let's review the concepts of **feasible direction** and **descent directi
 
 $$f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}].$$
 
-* The cone of descent direction $$\mathcal{D}_{\bar{x}}$$ is the set of all $$d \in \mathbb R^n$$, $$d \neq 0$$, where there exists $$\bar{\tau} > 0$$,
+* The cone of descent direction $$\mathcal{D}_{\bar{x}}$$ is the set of all $$d \in \mathbb R^n$$, $$d \neq 0$$, where there exists $$\bar{\tau} > 0$$, s.t.
 
 $$f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}].$$
 
-If $x^*$ is a local minimizer of $(2)$, $$\mathcal{F}_{\bar{x}} \cap \mathcal{D}_{\bar{x}} = \emptyset$$.
+If $$x^*$$ is a local minimizer of $$\eqref{2}$$, $$\mathcal{F}_{\bar{x}} \cap \mathcal{D}_{\bar{x}} = \emptyset$$.
 
 **Proposition**: If $$\mathcal{X}$$ is convex, any local minimizer $$x^*$$ of the optimization problem $$(f, \mathcal{X})$$ is a solution to a VI problem $$(\nabla f, \mathcal{X})$$.
 
@@ -63,7 +63,9 @@ If $x^*$ is a local minimizer of $(2)$, $$\mathcal{F}_{\bar{x}} \cap \mathcal{D}
 
 
 
-### VI and Game Theory
+### VI and Nash Equilibrium
+
+### Fixed-Point Formulation
 
 
 ## 2. Algorithm
