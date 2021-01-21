@@ -63,14 +63,16 @@ Using these concepts, we can directly obtain the following result.
 
 ***Proof.*** Since $$\mathcal{X}$$ is convex, the cone of feasible directions at $$x^*$$ is 
 
-$$\mathcal{F}_{x^*} = \left{d: d = x - x^*, x \in \mathcal{Z} \right}.$$
+$$\mathcal{F}_{x^*} = \left\{d: d = x - x^*, x \in \mathcal{Z} \right\}.$$
 
 Since $$f$$ is differentiable, the cone of descent directions at $$x^*$$ is
 
-$$\mathcal{D}_{x^*} = \left\{d: \left<\nabla f(x^*)^{T}, d \right> \in < 0 \right\}.$$
+$$\mathcal{D}_{x^*} = \left\{d: \left<\nabla f(x^*)^{T}, d \right> < 0 \right\}.$$
 
 
-If $$x^*$$ is a local minimizer of $$\eqref{eq:2}$$, then $$\mathcal{F}_{\bar{x}} \cap \mathcal{D}_{\bar{x}} = \emptyset$$.
+If $$x^*$$ is a local minimizer of $$\eqref{eq:2}$$, then $$\mathcal{F}_{\bar{x}} \cap \mathcal{D}_{\bar{x}} = \emptyset$$, i.e. 
+
+$$\left<\nabla f(x^*)^{T}, x - x^*\right>$$
 
 **Proposition**: If $$f$$ is convex, any solution $$x^*$$ to the VI problem $$(\nabla f, \mathcal{X})$$ is a global minimizer of the optimization problem $$(f, \mathcal{X})$$.
 
