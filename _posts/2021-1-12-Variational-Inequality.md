@@ -3,7 +3,7 @@ layout: post
 title: Variational Inequality
 ---
 
-Classcial Results and New Insights
+***Classcial Results and New Insights***
 
 
 **Variational inequality** (VI) was first proposed as a tool to study partial differential equations in the 1960s. Subsequently, researchers began to realize that it could also be a powerful tool for various problems in operations research, economics and engineering.
@@ -12,7 +12,7 @@ Actually, when I started to learn about it, I thought this topic was a little bi
 
 1. **Formulation**: What is VI?
 2. **Algorithm**: How to solive it?
-3. **Differentiability**: How to differentiate through it?
+3. **Differentiation**: How to differentiate through it?
 
 This outline is in line with some classic textbooks, while I also want to add some new materials besides those classical results in the textbooks, especially how VI is related to today's research topic.
 
@@ -22,7 +22,7 @@ This outline is in line with some classic textbooks, while I also want to add so
 {:toc}
 
 
-## 1. What is VI?
+## 1. Formulation
 
 Given a set $$\mathcal{X} \subseteq \mathbb R^n$$ and a function $$F: \mathcal{X} \to \mathbb R^n$$, a (finite-dimensional) VI problem $$(F, \mathcal{X})$$ is to find $$x^* \in \mathcal{X}$$ such that
 
@@ -35,7 +35,7 @@ Before further introducing any properties of VI, I think it would be better to f
 
 ### VI and Optimization
 
-Given a set $$\mathcal{X} \subseteq \mathbb R^n$$ and a differentiable function $$f: \mathcal{X} \to \mathbb R$$. Consider the following optimization problem:
+Given a set $$\mathcal{X} \subseteq \mathbb R^n$$ and a differentiable function $$f: \mathcal{X} \to \mathbb R$$. Consider the following optimization problem $$(f, \mathcal{X})$$:
 
 $$
 \begin{aligned}
@@ -47,15 +47,15 @@ $$
 
 First, let's review the concepts of **feasible direction** and **descent direction**. At a feasible point $$\bar{x} \in \mathcal{X}$$,
 
-* A vector $$d$$ is a feasible direction, if there exists a scalar $$\bar{\tau}$$ such that
+* The cone of feasible directions is defined as
 
-$$f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}]$$
+$$\mathcal{F}_{\bar{x}} = \left{d \neq 0: f(\bar{x} + \tau d) \in \mathcal{X}, \quad \forall \tau \in [0, \bar{\tau}] \right}$$
 
-* A vector $$d$$ is a descent direction, if there exists a scalar $$\bar{\tau}$$ such that
+* The cone of descent direction is defined as
 
-$$f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}]$$
+$$\mathcal{D}_{\bar{x}} = \left{d \neq 0: f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}]\right}$$
 
-If $x^*$ is a local minimizer of $$1$$
+If $x^*$ is a local minimizer of $(2)$,
 
 **Proposition**: If $$\mathcal{X}$$ is
 
@@ -64,6 +64,6 @@ If $x^*$ is a local minimizer of $$1$$
 ### VI and Game Theory
 
 
-## 2. How to solve it?
+## 2. Algorithm
 
-## 3. How to differentiate through it?
+## 3. Differentiation
