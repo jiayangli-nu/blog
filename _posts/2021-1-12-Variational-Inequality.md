@@ -22,15 +22,19 @@ This outline is in line with some classic textbooks, while I also want to add so
 
 ## 1. What is VI?
 
-Given a set $$\mathcal{Z} \subseteq \mathbb R^n$$ and a function $$F: \mathcal{Z} \to \mathbb R^n$$, a (finite-dimensional) VI problem $$(F, \mathcal{Z})$$ is to find $$z^* \in \mathcal{Z}$$ such that
+Given a set $$\mathcal{X} \subseteq \mathbb R^n$$ and a function $$F: \mathcal{X} \to \mathbb R^n$$, a (finite-dimensional) VI problem $$(F, \mathcal{X})$$ is to find $$x^* \in \mathcal{X}$$ such that
 
 $$
-    \left< F(z^*),  z - z^*  \right> \geq 0, \quad \forall~z \in \mathcal{Z}.
+    \left< F(x^*),  x - x^*  \right> \geq 0, \quad \forall~x \in \mathcal{X}.
 $$
 
-
+Before introducing any properties of VI, I think it would be better to first have some examples. 
 
 ### VI and Optimization
+
+
+
+
 ### VI and Game Theory
 
 
