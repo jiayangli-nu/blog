@@ -40,12 +40,6 @@ $$
 \end{aligned}
 $$
 
-First, let's review the concepts of **feasible direction** and **descent direction**. 
-
-* If 
-* If
-
-**Proposition**: If $$\mathcal{X}$$ is
 
 
 
