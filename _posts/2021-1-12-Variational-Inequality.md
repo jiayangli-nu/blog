@@ -82,6 +82,8 @@ The converse is also true when the function $f$ is convex.
 
 ***Proof.*** Since $$f$$ is convex, 
 
+$$f(x) \geq f(x^*) + \left<\nabla f(x^*), x - x^*\right> \geq f(x^*), \quad \forall x \in \mathcal{X}.$$
+
 
 
 ### VI and Nash Equilibrium
