@@ -92,6 +92,8 @@ These two propositions establish the equivalence between VI and convex optimizat
 
 ### VI and Nash Equilibrium
 
+### VI and Reinforcement Learning
+
 ### Fixed-Point Formulation
 
 
