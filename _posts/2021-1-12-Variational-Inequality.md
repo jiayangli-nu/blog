@@ -65,7 +65,7 @@ Using these concepts, we can directly formulate an optimziation problem to a VI 
 
 $$\mathcal{F}_{x^*} = \left\{d: d = x - x^*, x \in \mathcal{X} \right\}.$$
 
-Since $$f$$ is continuously differentiable, the cone of descent directions at $$x^*$$ is (\color{red}{The continuity of $$\nabla f$$ is important!})
+Since $$f$$ is continuously differentiable, the cone of descent directions at $$x^*$$ is  (<span style="color:blue">The continuity of $$\nabla f$$ is important!</span>.)
 
 $$\mathcal{D}_{x^*} = \left\{d: \left<\nabla f(x^*), d \right> < 0 \right\}.$$
 
@@ -86,7 +86,7 @@ $$f(x) \geq f(x^*) + \left<\nabla f(x^*), x - x^*\right> \geq f(x^*), \quad \for
 
 These two propositions establish the equivalence between VI and convex optimization. 
 
-**Note.** Convex optimization may be the most natural example of VI, thus a lot of textbooks use it as the first example. However, one may ask: why bother? We already know almost everything about convex optimization. To see why VI is useful, let's move to the next part.
+**Comment.** A lot of textbooks use optimization as the first example of VI. It is extremly natural indeed. However, one may ask: why bother? We already know almost everything about convex optimization. So, let's move to the next part to see why VI is useful.
 
 
 
