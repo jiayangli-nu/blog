@@ -65,6 +65,10 @@ Using these concepts, we can directly obtain the following result.
 
 $$\mathcal{F}_{x^*} = \left{d: d = x - x^*, x \in \mathcal{Z} \right}.$$
 
+Since $$f$$ is differentiable, the cone of descent directions at $$x^*$$ is
+
+$$\mathcal{D}_{x^*} = \left\{d: \left<\nabla f(x^*)^{T}, d \right> \in < 0 \right\}.$$
+
 
 If $$x^*$$ is a local minimizer of $$\eqref{eq:2}$$, then $$\mathcal{F}_{\bar{x}} \cap \mathcal{D}_{\bar{x}} = \emptyset$$.
 
