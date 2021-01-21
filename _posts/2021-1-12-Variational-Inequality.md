@@ -59,7 +59,7 @@ $$f(\bar{x} + \tau d) < f(\bar{x}), \quad \forall \tau \in [0, \bar{\tau}].$$
 
 Using these concepts, we can directly formulate an optimziation problem to a VI problem when $$\mathcal{X}$$ is convex.
 
-**Proposition**: If $$\mathcal{X}$$ is convex, any local minimizer $$x^*$$ of the optimization problem $$(f, \mathcal{X})$$ is a solution to a VI problem $$(\nabla f, \mathcal{X})$$.
+**Proposition 1.1**: If $$\mathcal{X}$$ is convex, any local minimizer $$x^*$$ of the optimization problem $$(f, \mathcal{X})$$ is a solution to a VI problem $$(\nabla f, \mathcal{X})$$.
 
 ***Proof.*** Since $$\mathcal{X}$$ is convex, the cone of feasible directions at $$x^*$$ is 
 
@@ -78,7 +78,7 @@ i.e. every feasible direction is not a descent direction. $$\blacksquare$$
 
 The converse is also true when $$f$$ is convex on $$\mathcal{X}$$. 
 
-**Proposition**: If $$f$$ is convex, any solution $$x^*$$ to the VI problem $$(\nabla f, \mathcal{X})$$ is a global minimizer of the optimization problem $$(f, \mathcal{X})$$.
+**Proposition 1.2**: If $$f$$ is convex, any solution $$x^*$$ to the VI problem $$(\nabla f, \mathcal{X})$$ is a global minimizer of the optimization problem $$(f, \mathcal{X})$$.
 
 ***Proof.*** Since $$f$$ is convex, 
 
@@ -92,24 +92,27 @@ These two propositions establish the equivalence between VI and convex optimizat
 
 ### VI and Nash Equilibrium
 
-Consider a game $$(\mathcal N, \mathcal{A}, u)$$ played by a set of agents $$\mathcal N$$, where each agent $$i \in \mathcal N$$ selects an *action* $$a_i \in \mathcal A_i$$ and each player's payoff is determined by a function
+Consider a game $$(\mathcal N, \mathcal{A}, u)$$ played by a set of agents $$\mathcal N$$, where each agent $$i \in \mathcal N$$ selects an *action* $$a_i \in \mathcal A_i$$ to minimize its disutility and each player's disutility is determined by a function
 
 $$u_i: \mathcal A = \prod_{i \in \mathcal N} \mathcal{A}_i\to \mathbb R$$.
 
 The outcome of a game can be predicted by its **Nash equilibrium**. Can VI become a powerful tool to analyze Nash equilibrium? Let's see some examples.
 
-**Example (Continuous Game)** When the action set $$\mathcal{A}_i$$ is continuous for all $i$, we call it a continuous game. If agents play pure strategies to minimize their payoffs, $a^* \in \mathcal A$ is a Nash equilibrium if
+**Example 1.1 (Continuous Game)** When the action set $$\mathcal{A}_i$$ is continuous for all $$i$$, we call it a continuous game. If agents play pure strategies to minimize their disutilities, $$a^* \in \mathcal A$$ is a Nash equilibrium if
 
 $$
-    u_i(a_i^*, a_{-i}^*) \leq u_i(a_i, a_{-i}^*), \quad \forall a_i \in \mathcal{A}_i, i \in \mathcal{N}.
+    u_i(a_i^*, a_{-i}^*) = \min_{a_i \in \mathcal{A}_i} u_i(a_i, a_{-i}^*), \quad \forall i \in \mathcal{N}.
 $$
 
-We also assume that $u_i$ is continuously differentiable in $a_i$ and write $v_i(a) = \nabla_{a_i} u_i(a)$.
-Specifically, if $\mathcal{A}_i$ is closed and convex for all $i \in \mathcal{N}$, then a Nash equilibrium $a^*$ is the solution to $\textsc{VI}(v, \mathcal{A})$. The converse also holds if for all $i \in \mathcal{N}$, $u_i$ is convex in $a_i$ for all $a_{-i} \in \prod_{j \neq i} \mathcal{A}_j$.
+We also assume that $$u_i$$ is continuously differentiable and write $$v_i(a) = \nabla_{a_i} u_i(a)$$.
+Specifically, if $$\mathcal{A}_i$$ is closed and convex for all $$i$$, then a Nash equilibrium $$a^*$$ is the solution to 
 
-**Example (Finite Game)**
 
-**Example (Population Game)**
+The converse also holds if for all $$i \in \mathcal{N}$$, $$u_i$$ is convex in $$a_i$$ for all $$a_{-i} \in \prod_{j \neq i} \mathcal{A}_j$$.
+
+**Example 1.2 (Finite Game)**
+
+**Example 1.3 (Population Game)**
 
 
 
