@@ -2,6 +2,7 @@
 layout: post
 title: Variational Inequality
 ---
+<span style="font size:27 px">Classcial Results and New Insights</span>
 
 ***Classcial Results and New Insights***
 
