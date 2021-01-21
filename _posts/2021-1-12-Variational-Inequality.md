@@ -70,7 +70,7 @@ Since $$f$$ is differentiable, the cone of descent directions at $$x^*$$ is
 $$\mathcal{D}_{x^*} = \left\{d: \left<\nabla f(x^*), d \right> < 0 \right\}.$$
 
 
-If $$x^*$$ is a local minimizer of the optimization problem $$(f, \mathcal{X})$$, then $$\mathcal{F}_{x^*} \cap \mathcal{D}_{x^*} = \emptyset$$, or equivalently
+If $$x^*$$ is a local minimizer, then $$\mathcal{F}_{x^*} \cap \mathcal{D}_{x^*} = \emptyset$$, or equivalently
 
 $$\left<\nabla f(x^*), x - x^*\right> \geq 0, \forall x \in \mathcal{X},$$
 
