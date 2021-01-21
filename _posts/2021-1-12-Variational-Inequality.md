@@ -66,7 +66,7 @@ Using these concepts, we can directly formulate an optimziation problem to a VI 
 
 $$\mathcal{F}_{x^*} = \left\{d = x - x^*, x \in \mathcal{X} \right\}.$$
 
-Since $$f$$ is continuously differentiable, the cone of descent directions at $$x^*$$ is  (<span style="color:red">Here the continuity of $$\nabla f$$is important!</span>)
+Since $$f$$ is continuously differentiable, the cone of descent directions at $$x^*$$ is  (<span style="color:red">Here the continuity of $$\nabla f$$ is important!</span>)
 
 $$\mathcal{D}_{x^*} = \left\{d = x - x^*, \left<\nabla f(x^*), x - x^* \right> < 0 \right\}.$$
 
@@ -92,6 +92,11 @@ These two propositions establish the equivalence between VI and convex optimizat
 
 
 ### VI and Nash Equilibrium
+
+Consider a game played by a set of agents $$\mathcal N$$, where each agent $$i \in \mathcal N$$ selects an \textit{action} $$a_i \in \mathcal A_i$$ and each player's payoff is determined by a function $$u_i: \mathcal A \to \mathbb R$$, where $$\mathcal{A} = \prod_{i \in \mathcal N} \mathcal{A}_i$$.  We then discuss how to formulate the Nash equilibria of games as VI problems defined below.
+
+
+
 
 ### VI and Reinforcement Learning
 
