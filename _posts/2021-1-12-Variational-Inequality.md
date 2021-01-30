@@ -92,7 +92,7 @@ These two propositions establish the equivalence between VI and convex optimizat
 
 ### VI and Nash Equilibrium
 
-Consider a game $$(\mathcal N, \mathcal{A}, u)$$ played by a set of agents $$\mathcal N$$, where each agent $$i \in \mathcal N$$ selects an *action* $$a_i \in \mathcal A_i$$ to minimize its disutility and each player's disutility is determined by a function
+Consider a game $$(\mathcal N, \mathcal{A}, u)$$ played by a set of agents $$\mathcal N$$, where each agent $$i \in \mathcal N$$ selects an *action* $$a_i \in \mathcal A_i$$ to minimize its disutility and each player's **disutility** is determined by a function
 
 $$u_i: \mathcal A = \prod_{i \in \mathcal N} \mathcal{A}_i\to \mathbb R$$.
 
@@ -104,7 +104,7 @@ $$
     u_i(a_i^*, a_{-i}^*) = \min_{a_i \in \mathcal{A}_i} u_i(a_i, a_{-i}^*), \quad \forall i \in \mathcal{N}.
 $$
 
-We also assume that $$u_i$$ is continuously differentiable and write $$v_i(a) = \nabla_{a_i} u_i(a)$$.
+If $$u_i$$ is continuously differentiable, and write $$v_i(a) = \nabla_{a_i} u_i(a)$$.
 Specifically, if $$\mathcal{A}_i$$ is closed and convex for all $$i$$, then a Nash equilibrium $$a^*$$ is the solution to 
 
 
